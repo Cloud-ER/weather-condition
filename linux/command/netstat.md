@@ -2,7 +2,6 @@
 
 `network statistics`
 
----
 
 ```bash
 # centos
