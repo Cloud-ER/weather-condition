@@ -1,10 +1,3 @@
----
-layout: post
-title: "netstat"
-background: 
-tag: [Linux, Command, Network]
----
-
 # netstat
 
 `network statistics`
