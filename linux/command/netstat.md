@@ -59,8 +59,7 @@ yum install netstat
 | -r | 라우팅 테이블 표시 |
 | -e | 이더넷 통계를 표시한다. -s 옵션과 함께 사용 가능 |
 | -s | 프로토콜별 통계를 표시한다. 기본적으로 IP, IPv6, ICMP, ICMPv6, TCP, TCPv6, UDP 및 UDPv6에 대한 통계를 표시 |
-| -p proto | proto로 지정한 프로토콜의 연결을 표시
-proto는 TCP, UDP, TCPv6, UDPv6 중 하나로, -s 옵션과 함께 사용해 프로토콜별 통계를 표시할 경우, proto는 IP, IPv6, ICMP. ICMPv6, TCP, TCPv6, UDP, UDPv6 중 하나를 사용 |
+| -p proto | proto로 지정한 프로토콜의 연결을 표시 proto는 TCP, UDP, TCPv6, UDPv6 중 하나로, -s 옵션과 함께 사용해 프로토콜별 통계를 표시할 경우, proto는 IP, IPv6, ICMP. ICMPv6, TCP, TCPv6, UDP, UDPv6 중 하나를 사용 |
 
 # 사용
 
