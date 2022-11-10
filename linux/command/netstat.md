@@ -98,13 +98,13 @@ netstat -anp | grep ESTABLISHED | wc -l
 watch -n 1 'netstat -nap | grep :80 | grep ESTABLISHED | wc -l'
 
 # root가 아닌 사용자가 p 옵션을 사용할 경우 -로 표시된다.
-[centos@mgt-bastion ~]$ netstat -ltp
+[clouder@mgt-bastion ~]$ netstat -ltp
 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
 tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN      -                   
 tcp        0      0 0.0.0.0:cgms            0.0.0.0:*               LISTEN      -
 
 # sudo su - 로 전환 후에 명령어를 다시 사용하는 것 보다 sudo !! 를 이용해 처리
-[centos@mgt-bastion ~]$ sudo !!
+[clouder@mgt-bastion ~]$ sudo !!
 sudo netstat -ltp
 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
 tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN      1624/master         
