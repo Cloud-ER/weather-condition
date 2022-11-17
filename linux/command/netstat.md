@@ -20,7 +20,7 @@ yum install netstat
 
 # 사용법
 
-- 리눅스 계열과 윈도 계역에서의 netstat 명령어의 기본적인 사용법은 같다.
+- 리눅스 계열과 윈도 계에서의 netstat 명령어의 기본적인 사용법은 같다.
     
     ```bash
     netstat [옵션]
