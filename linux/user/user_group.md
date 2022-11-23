@@ -302,7 +302,7 @@ ec2-user ALL=(ALL) /sbin/shutdown
 
 - 패스워드 정책 및 기본값 설정
     - 패스워드 정책 설정 파일 : **/etc/security/pwquality.conf**
-    - 패스워드 기본값 설정 파일 : **/etc/login.defs → 여기서 UMASK 설정 가능하지만, umask 명령어 통해도 가능**
+    - 패스워드 기본값 설정 파일 : **/etc/login.defs**
     - 복잡도, 변경주기, 히스토리 등
     - 대/소문자, 숫자, 특수문자를 혼용하여 8글자 이상의 패스워드를 사용
     - 동일 문자를 연속 4회 이상 사용하기 금지
