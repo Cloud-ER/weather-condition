@@ -45,7 +45,7 @@ yum install netstat
 | -r, --route | 라우팅 테이블 표시 |
 | -i, --interfaces | 인터페이스별 입출력 패킷 통계 |
 | -s, --statistics | 네트워크 통계 데이터 출력 |
-| -p, ----programs | PID와 프로그램 이름 출력 |
+| -p, --programs | PID와 프로그램 이름 출력 |
 | -t, --tcp | TCP만 출력(TCP, TCPv6) |
 | -4 / -6 | IPv4나 IPv6에 대해 출력 |
 
