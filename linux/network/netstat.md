@@ -39,14 +39,14 @@ yum install netstat
 
 | 옵션 | 의미 |
 | --- | --- |
-| -a, —all | 모든 연결과 수신 대기 포트 표시, 연결(Established)되어 있거나 대기(Listening)중인 모든 포트 번호 |
-| -l —listening | listening 상태인 것 출력 |
-| -n, —numeric | 주소와 포트 번호를 숫자 형식으로 표시(예: http → 80) |
-| -r, —route | 라우팅 테이블 표시 |
-| -i, —interfaces | 인터페이스별 입출력 패킷 통계 |
-| -s, —statistics | 네트워크 통계 데이터 출력 |
-| -p, —programs | PID와 프로그램 이름 출력 |
-| -t, —tcp | TCP만 출력(TCP, TCPv6) |
+| -a, --all | 모든 연결과 수신 대기 포트 표시, 연결(Established)되어 있거나 대기(Listening)중인 모든 포트 번호 |
+| -l --listening | listening 상태인 것 출력 |
+| -n, --numeric | 주소와 포트 번호를 숫자 형식으로 표시(예: http → 80) |
+| -r, --route | 라우팅 테이블 표시 |
+| -i, --interfaces | 인터페이스별 입출력 패킷 통계 |
+| -s, --statistics | 네트워크 통계 데이터 출력 |
+| -p, ----programs | PID와 프로그램 이름 출력 |
+| -t, --tcp | TCP만 출력(TCP, TCPv6) |
 | -4 / -6 | IPv4나 IPv6에 대해 출력 |
 
 ## 윈도 명령어 옵션
