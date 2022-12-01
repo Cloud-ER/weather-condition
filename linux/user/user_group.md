@@ -233,7 +233,7 @@ ec2-user ALL=(ALL) /sbin/shutdown
     ...
     
     # 사용자, 사용자 홈디렉토리만 보기
-    # cat /etc/passwd |cut -f1,6 -d:
+    # cut -f1,6 -d: /etc/passwd
     ```
     
     | 로그인 명 | 각 사용자는 유일한 이름을 가지고 있어야함(중복허용X) |
